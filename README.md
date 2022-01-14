@@ -1,2 +1,2 @@
-# tailwind-css
-Tailwind Css Project
+# tailwindcss
+tailwindcss project
