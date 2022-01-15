@@ -5,7 +5,7 @@
 </p>
 
 # Content
-1. [personal-protfolio](https://github.com/chenxuanzzy/tailwindcss-project/tree/main/personal-protfolio)
+1. [Personal-Protfolio](https://github.com/chenxuanzzy/tailwindcss-project/tree/main/personal-protfolio)
 
 
 # References
