@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="stylesheet" href="_assets/css/tailwind.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -125,7 +125,7 @@
           </div>
         </div>
         <img
-          src="img/man.png"
+          src="_assets/img/man.png"
           alt="Man"
           class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1"
         />
@@ -398,30 +398,6 @@
       </section>
     </div>
 
-    <script>
-      function updateList() {
-        const titles = [...document.querySelectorAll("h1, h2")].sort((a, b) => {
-          return (
-            Math.abs(a.getBoundingClientRect().top) -
-            Math.abs(b.getBoundingClientRect().top)
-          );
-        });
-
-        document
-          .querySelectorAll(".selected-circle")
-          .forEach((c) => c.classList.remove("selected-circle"));
-
-        document
-          .querySelectorAll(".nav-dot")
-          [
-            [...document.querySelectorAll("h1, h2")].indexOf(titles[0])
-          ].classList.add("selected-circle");
-      }
-
-      updateList();
-      window.addEventListener("scroll", () => {
-        updateList();
-      });
-    </script>
+    <script src="_assets/js/index.js"></script>
   </body>
 </html>
