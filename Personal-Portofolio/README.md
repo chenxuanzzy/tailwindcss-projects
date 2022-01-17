@@ -5,7 +5,7 @@
 
   <img src="https://i.imgur.com/p3nURdC.gif" />
 
-  👉️ _Checkout the live demo [here](https://chenxuanzzy.github.io/tailwindcss-project/personal-protfolio/)._
+👉️ _Checkout the live demo [here](https://chenxuanzzy.github.io/tailwindcss-project/Personal-Portofolio/dist/)._
 
 </div>
 
