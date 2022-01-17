@@ -1,13 +1,21 @@
+<!-- badges -->
+<div align="right">
+
+  [![](https://img.shields.io/github/license/chenxuanzzy/tailwindcss-project.svg?style=flat-square)](./LICENSE)
+
+</div>
+
 # Tailwindcss Project
+
 <!-- cover image -->
-<p style="text-align: center">
-    <img src="https://tools.wingzero.tw/assets/upload/1611643654838_0.jpg" height=300/>
+<p align="center">
+  <img src="https://i.imgur.com/fh1gUB7.png" height=150 />
 </p>
 
-# Content
-1. [Personal-Portofolio](https://github.com/chenxuanzzy/tailwindcss-project/tree/main/Personal-Portofolio)
+## Projects
 
+- `2022/01/15` [Personal Portfolio](./personal-portfolio/)
 
-# References
-1. [Build & Deploy a Personal Portfolio with TailwindCSS - 2022 Edition](https://www.youtube.com/watch?v=Vp6GC3jKG20)
+## License
 
+Licensed under the MIT License, Copyright © 2021-present Cindy Chao.
