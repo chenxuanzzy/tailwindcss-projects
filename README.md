@@ -18,7 +18,7 @@ _🏋️ Learn and practice building layouts with [Tailwind CSS](https://tailwin
 
 ## Projects
 
-- `2022/01/15` [Personal Portfolio](./Personal-Portofolio/)
+- `2022/01/15` [personal portfolio](./personal-portfolio/)
 
 ## License
 
