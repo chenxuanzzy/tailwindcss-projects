@@ -6,4 +6,4 @@ Personal portofoilo by tailwindcss
 
 # Demo
 
-[Demo](https://chenxuanzzy.github.io/tailwindcss-project/personal-protfolio/)
+[Demo](https://chenxuanzzy.github.io/tailwindcss-project/Personal-Portofolio/)
