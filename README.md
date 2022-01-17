@@ -14,7 +14,7 @@
 
 ## Projects
 
-- `2022/01/15` [Personal Portfolio](./personal-portfolio/)
+- `2022/01/15` [Personal Portfolio](./Personal-Portofolio/)
 
 ## License
 
