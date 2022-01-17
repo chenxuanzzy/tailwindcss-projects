@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.0.13"
+  },
+  "name": "personal-protfolio",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
