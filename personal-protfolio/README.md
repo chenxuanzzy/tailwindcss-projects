@@ -1,6 +1,6 @@
-# Personal-Protfolio
+# Personal-Portofoilo
 
-Personal protfolio by tailwindcss
+Personal portofoilo by tailwindcss
 
 ![](https://i.imgur.com/HGtnev3.png)
 
