@@ -1,0 +1,31 @@
+name: Site Deployment
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  site-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Setup Distribution Folders
+        run: |
+          cp -R ./tailwindcss-project/dist ./public
+          cp -R ./personal-portfolio/dist ./public/personal-portfolio/
+
+      - name: GitHub Page Deployment
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
