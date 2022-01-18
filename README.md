@@ -19,6 +19,7 @@ _🏋️ Learn and practice building layouts with [Tailwind CSS](https://tailwin
 ## Projects
 
 - `2022/01/15` [personal portfolio](./personal-portfolio/)
+- `2022/01/18` [doggo website](./doggo-website/)
 
 ## License
 
