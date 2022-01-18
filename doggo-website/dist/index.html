@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doggo Website</title>
+    <link rel="stylesheet" href="_assets/css/tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+  </head>
+  <body class="font-poppins">
+    <div id="app">
+      <!-- Header -->
+      <div class="bg-header p-4 flex justify-between items-center">
+        <div class="flex items-center">
+          <img
+            src="./_assets/img/logo.png"
+            width="50"
+            alt="Logo"
+            class="mr-2"
+          />
+          <a
+            href="#home"
+            class="inline-block py-2 px-3 text-indigo-100 mr-2 hover:text-blue-600 font-semibold"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="inline-block py-2 px-3 text-indigo-100 mr-2 hover:text-blue-600 font-semibold"
+            >About</a
+          >
+        </div>
+        <div class="hidden md:block">
+          <a
+            href="#login"
+            class="inline-block p-2 text-indigo-100 mr-2 hover:text-blue-600 font-semibold"
+            >Login</a
+          >
+          <a
+            href="#signup"
+            class="inline-block p-2 px-4 text-blue-300 bg-blue-800 hover:bg-blue-300 hover:text-yellow-800 rounded transition ease-in duration-50 font-semibold"
+            >Sign up</a
+          >
+        </div>
+        <div class="md:hidden">
+          <svg
+            width="26"
+            height="18"
+            viewBox="0 0 26 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Container -->
+      <div class="md:flex justify-between py-20 px-10 bg-body text-indigo-100">
+        <div class="md:w-1/2 mb-10 md:mb-0">
+          <h2 class="text-2xl md:text-4xl text-white mb-6 font-extrabold">
+            Welcome Doggo Website
+          </h2>
+          <a
+            href="#more"
+            class="inline-block py-3 px-6 text-lg bg-gray-400 text-slate-800 hover:bg-gray-300 rounded mr-2"
+            >Learn More</a
+          >
+          <a
+            href="#start"
+            class="inline-block py-3 px-6 text-lg bg-orange-400 text-orange-800 rounded hover:bg-orange-300"
+            >Get Started</a
+          >
+        </div>
+
+        <div class="md:w-1/2">
+          <img
+            src="./_assets/img/doggo.jpeg"
+            alt="doggo"
+            width="250"
+            class="w-full rounded shadow-2xl"
+          />
+        </div>
+      </div>
+      <!-- Features -->
+      <div class="md:flex py-16 px-10 bg-body text-indigo-200 text-center">
+        <img-component
+          :img="imgURL"
+          v-for="(item,index) in pTag"
+          :item="item.name"
+          :index="item.index"
+        ></img-component>
+      </div>
+      <!-- Footer && Newsletter -->
+      <div class="p-10 bg-footer text-indigo-400 flex justify-between">
+        <div>
+          <h3 class="text-lg mb-2">Join the Newsletter</h3>
+          <form class="flex">
+            <input
+              type="email"
+              class="w-full rounded-l py-3 px-4 outline-none foucs:bg-indigo-200"
+            />
+            <button
+              class="bg-blue-300 text-blue-800 rounded-r px-4 hover:bg-blue-400"
+            >
+              Join
+            </button>
+          </form>
+        </div>
+        <div>Copyright © Doggo Cindy Chao 2022</div>
+      </div>
+    </div>
+  </body>
+  <script src="../src/index.js"></script>
+</html>
