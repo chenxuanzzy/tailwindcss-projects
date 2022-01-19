@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Doggo Website
 
 <!-- demo screenshot -->
 <div align="center">
