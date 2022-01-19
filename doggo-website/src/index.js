@@ -25,11 +25,11 @@ const app = new Vue({
         },
         {
           name: "Peace",
-          index: "3",
+          index: "2",
         },
         {
           name: "Cuddles",
-          index: "4",
+          index: "3",
         },
       ],
       imgURL: [],
