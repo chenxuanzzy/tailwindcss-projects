@@ -18,8 +18,8 @@ _🏋️ Learn and practice building layouts with [Tailwind CSS](https://tailwin
 
 ## Projects
 
-- `2022/01/15` [personal portfolio](./personal-portfolio/)
-- `2022/01/18` [doggo website](./doggo-website/)
+- `2022/01/15` [Personal Portfolio](./personal-portfolio/)
+- `2022/01/18` [Doggo Website](./doggo-website/)
 
 ## License
 
