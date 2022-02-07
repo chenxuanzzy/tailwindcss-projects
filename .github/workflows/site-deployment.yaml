@@ -20,6 +20,7 @@ jobs:
           cp -R ./tailwindcss-project/dist ./public
           cp -R ./personal-portfolio/dist ./public/personal-portfolio/
           cp -R ./doggo-website/dist ./public/doggo-website/
+          cp -R ./facebook-ui/dist ./public/facebook-ui/
 
       - name: GitHub Page Deployment
         uses: peaceiris/actions-gh-pages@v3
